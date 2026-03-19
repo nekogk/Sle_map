@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sle City Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        /* 1. 로컬 폰트 파일 등록 */
+        @font-face {
+            font-family: 'Rusimez sans';
+            src: url('RusimezSans.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'Rusimez sans', 'Noto Sans', 'Noto Sans SC', 'Noto Sans KR', 'Microsoft YaHei', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body { margin: 0; padding: 0; }
+        #map { width: 100vw; height: 100vh; background-color: #f0f0f0; }
+
+        /* 2. 지도 라벨에 폰트 적용 */
+        .map-label {
+            font-family: 'Rusimez sans', 'Noto Sans', 'Noto Sans SC', 'Noto Sans KR', 'Microsoft YaHei', sans-serif;
+            background: transparent;
+            border: none;
+            box-shadow: none;
+            color: #333;
+            white-space: nowrap;
+            text-align: center;
+            text-shadow: 
+                -1px -1px 0 #fff,  /* 북서 */
+                1px -1px 0 #fff,  /* 북동 */
+                -1px  1px 0 #fff,  /* 남서 */
+                1px  1px 0 #fff,  /* 남동 */
+                -1px  0   0 #fff,  /* 서 */
+                1px  0   0 #fff,  /* 동 */
+                0   -1px 0 #fff,  /* 북 */
+                0    1px 0 #fff;  /* 남 */
+
+            /* 가독성을 위한 추가 설정 */
+            white-space: nowrap; /* 줄바꿈 방지 */
+        }
+        
+        /* UI 컨테이너 (오른쪽 상단) */
+        #custom-controls {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end; /* 오른쪽 정렬 */
+            gap: 10px;
+        }
+
+        /* 언어 버튼 그룹 */
+        .lang-group {
+            display: flex;
+            gap: 5px;
+        }
+
+        /* 공통 버튼 스타일 */
+        .control-btn {
+            font-family: 'Rusimez sans', 'Noto Sans', 'Noto Sans SC', 'Noto Sans KR', 'Microsoft YaHei', sans-serif;
+            background: #EABF8C;
+            border: 1px solid #999;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 14px;
+            border-radius: 14px;
+        }
+
+        .control-btn:hover { background: #f9f9f9; }
+        .control-btn.active { background: #f9f9f9; }
+
+        /* 확대/축소 버튼 그룹 */
+        .zoom-group {
+            display: flex;
+            gap: 5px;
+        }
+        .zoom-btn {
+            font-family: 'Rusimez sans', 'Noto Sans', 'Noto Sans SC', 'Noto Sans KR', 'Microsoft YaHei', sans-serif;
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #coords-display {
+            font-family: 'Rusimez sans', 'Noto Sans', 'Noto Sans SC', 'Noto Sans KR', 'Microsoft YaHei', sans-serif;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: #EABF8C;
+            padding: 5px 10px;
+            border-radius: 14px;
+            border: 1px solid #999;
+            font-family: monospace; /* 좌표는 고정폭 글꼴이 보기 좋아 */
+            font-size: 14px;
+            pointer-events: none; /* 마우스 이벤트를 방해하지 않게 설정 */
+        }
+    </style>
+</head>
+<body>
+    <div id="custom-controls">
+        <div class="lang-group">
+            <button class="control-btn active" onclick="changeLang('lo', this)">联邦語</button>
+            <button class="control-btn" onclick="changeLang('ko', this)">한국어</button>
+            <button class="control-btn" onclick="changeLang('en', this)">English</button>
+            <button class="control-btn" onclick="changeLang('ja', this)">日本語</button>
+        </div>
+        <div class="zoom-group">
+            <button class="control-btn zoom-btn" onclick="map.zoomIn(1/4)">+</button>
+            <button class="control-btn zoom-btn" onclick="map.zoomOut(1/4)">-</button>
+        </div>
+    </div>
+    <div id="coords-display">0, 0</div>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
