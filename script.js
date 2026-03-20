@@ -5,17 +5,32 @@ const bounds = [[0, 0], [mapSize, mapSize]];
 let currentLang = 'lo';
 let locationData = [];
 
-const zoomThresholds = {'a': -5, 'b': -3.5, 'c': -2, 'd': -0.5, 'e': 1};
-const zoomThresholdsDisappear = {'a': -3, 'b': -1.5, 'c': 0, 'd': 1.5, 'e': 3};
-const fontSizeThresholds = {'a': '2vw', 'b': '1.8vw', 'c': '1.5vw', 'd': '1.2vw', 'e': '1vw'};
+const isMobile = window.innerWidth < 768;
+const zoomThresholds = isMobile ? 
+    {'a': -7, 'b': -5.5, 'c': -4, 'd': -2.5, 'e': -1} : 
+    {'a': -5, 'b': -3.5, 'c': -2, 'd': -0.5, 'e': 1};
+const zoomThresholdsDisappear = isMobile ?
+    {'a': -5, 'b': -3.5, 'c': -2, 'd': -0.5, 'e': -1} :
+    {'a': -3, 'b': -1.5, 'c': 0, 'd': 1.5, 'e': 3};
+const fontSizeThresholds = isMobile ?
+    {'a': '4vw', 'b': '3.6vw', 'c': '3vw', 'd': '2.4vw', 'e': '2vw'} :
+    {'a': '2vw', 'b': '1.8vw', 'c': '1.5vw', 'd': '1.2vw', 'e': '1vw'};
 
-const map = L.map('map', {
-    crs: L.CRS.Simple,
-    zoomSnap: 1/4,
-    minZoom: -5,
-    maxZoom: 3,
-    zoomControl: false
-});
+const map = isMobile ?
+    L.map('map', {
+        crs: L.CRS.Simple,
+        zoomSnap: 1/4,
+        minZoom: -7,
+        maxZoom: 1,
+        zoomControl: false
+    }) :
+    L.map('map', {
+        crs: L.CRS.Simple,
+        zoomSnap: 1/4,
+        minZoom: -5,
+        maxZoom: 3,
+        zoomControl: false
+    });
 
 L.imageOverlay('Sle_map.svg', bounds).addTo(map);
 map.fitBounds(bounds);
