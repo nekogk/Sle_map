@@ -22,14 +22,18 @@ const map = isMobile ?
         zoomSnap: 1/4,
         minZoom: -6,
         maxZoom: 2,
-        zoomControl: false
+        zoomControl: false,
+        maxBounds: bounds,
+        maxBoundsViscosity: 1.0
     }) :
     L.map('map', {
         crs: L.CRS.Simple,
         zoomSnap: 1/4,
         minZoom: -5,
         maxZoom: 3,
-        zoomControl: false
+        zoomControl: false,
+        maxBounds: bounds,
+        maxBoundsViscosity: 1.0
     });
 
 L.imageOverlay('Sle_map.svg', bounds).addTo(map);
