@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-jp.min.css" />
     <style>
         /* 1. 로컬 폰트 파일 등록 */
         @font-face {
@@ -21,7 +20,6 @@
         }
 
         body {
-            font-family: 'Rusimez sans', 'Noto Sans', 'Noto Sans SC', 'Noto Sans KR', 'Microsoft YaHei', sans-serif;
             margin: 0;
             padding: 0;
         }
@@ -31,7 +29,6 @@
 
         /* 2. 지도 라벨에 폰트 적용 */
         .map-label {
-            font-family: 'Rusimez sans', 'Noto Sans', 'Noto Sans SC', 'Noto Sans KR', 'Microsoft YaHei', sans-serif;
             background: transparent;
             border: none;
             box-shadow: none;
@@ -72,7 +69,7 @@
 
         /* 공통 버튼 스타일 */
         .control-btn {
-            font-family: 'Rusimez sans', 'Noto Sans', 'Noto Sans SC', 'Noto Sans KR', 'Microsoft YaHei', sans-serif;
+            font-family: 'Pretendard', 'Pretendard JP' sans-serif;
             background: #EABF8C;
             border: 1px solid #999;
             padding: 8px 12px;
@@ -90,7 +87,7 @@
             gap: 5px;
         }
         .zoom-btn {
-            font-family: 'Rusimez sans', 'Noto Sans', 'Noto Sans SC', 'Noto Sans KR', 'Microsoft YaHei', sans-serif;
+            font-family: 'Pretendard', sans-serif;
             width: 40px;
             height: 40px;
             font-size: 20px;
@@ -100,7 +97,7 @@
         }
         
         #coords-display {
-            font-family: 'Rusimez sans', 'Noto Sans', 'Noto Sans SC', 'Noto Sans KR', 'Microsoft YaHei', sans-serif;
+            font-family: 'Pretendard', sans-serif;
             position: absolute;
             bottom: 20px;
             right: 20px;
@@ -113,12 +110,27 @@
             font-size: 14px;
             pointer-events: none; /* 마우스 이벤트를 방해하지 않게 설정 */
         }
+
+        /* 1. 로포나어  */
+        body.lang-lo, .lang-lo .map-label {
+            font-family: 'Rusimez sans', 'Microsoft YaHei', sans-serif;
+        }
+
+        /* 2. 한국어 및 영어 */
+        body.lang-ko, body.lang-en, .lang-ko .map-label, .lang-en .map-label {
+            font-family: 'Pretendard', sans-serif;
+        }
+
+        /* 3. 일본어 */
+        body.lang-ja, .lang-ja .map-label {
+            font-family: 'Pretendard JP', sans-serif;
+        }
     </style>
 </head>
 <body>
     <div id="custom-controls">
         <div class="lang-group">
-            <button class="control-btn active" onclick="changeLang('lo', this)">联邦語</button>
+            <button class="control-btn active" onclick="changeLang('lo', this)" style="font-family: 'Microsoft YaHei', sans-serif;">联邦語</button>
             <button class="control-btn" onclick="changeLang('ko', this)">한국어</button>
             <button class="control-btn" onclick="changeLang('en', this)">English</button>
             <button class="control-btn" onclick="changeLang('ja', this)">日本語</button>
