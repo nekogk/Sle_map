@@ -7,10 +7,10 @@ let locationData = [];
 
 const isMobile = window.innerWidth < 768;
 const zoomThresholds = isMobile ? 
-    {'a': -7, 'b': -5.5, 'c': -4, 'd': -2.5, 'e': -1} : 
+    {'a': -6, 'b': -4.5, 'c': -3, 'd': -1.5, 'e': 0} : 
     {'a': -5, 'b': -3.5, 'c': -2, 'd': -0.5, 'e': 1};
 const zoomThresholdsDisappear = isMobile ?
-    {'a': -5, 'b': -3.5, 'c': -2, 'd': -0.5, 'e': -1} :
+    {'a': -4, 'b': -2.5, 'c': -1, 'd': 0.5, 'e': 2} :
     {'a': -3, 'b': -1.5, 'c': 0, 'd': 1.5, 'e': 3};
 const fontSizeThresholds = isMobile ?
     {'a': '4vw', 'b': '3.6vw', 'c': '3vw', 'd': '2.4vw', 'e': '2vw'} :
@@ -20,8 +20,8 @@ const map = isMobile ?
     L.map('map', {
         crs: L.CRS.Simple,
         zoomSnap: 1/4,
-        minZoom: -7,
-        maxZoom: 1,
+        minZoom: -6,
+        maxZoom: 2,
         zoomControl: false
     }) :
     L.map('map', {
