@@ -57,7 +57,7 @@ function renderMarkers() {
                 className: 'map-label',
                 html: `<div style="font-size: ${fontSize}">${text}</div>`,
                 iconSize: [200, 40],
-                iconAnchor: [100, 20]
+                iconAnchor: [100, 10]
             });
 
             L.marker(loc.coords, { icon: textIcon }).addTo(markerLayer);
@@ -102,7 +102,7 @@ map.on('mousemove', function(e) {
     coordsDisplay.innerHTML = `${Math.round(e.latlng.lat)}, ${Math.round(e.latlng.lng)}`;
 });
 
-
+/*
 // 좌표 클립보드 복사
 map.on('click', function(e) {
     // 1. 좌표 추출 및 반올림
@@ -121,3 +121,4 @@ map.on('click', function(e) {
         console.error('복사 실패:', err);
     });
 });
+*/
