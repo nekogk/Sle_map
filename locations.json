@@ -194,7 +194,7 @@
   {"id": "sle_metro_448", "rank": "d", "coords": [44543, 32273], "names": {"ko": "레파추역", "en": "Refacu Station", "ja": "レファトゥ駅", "lo": "仮月駅"}},
   {"id": "sle_metro_449", "rank": "d", "coords": [44431, 33073], "names": {"ko": "멜리즈역", "en": "Meliz Station", "ja": "メリズ駅", "lo": "宮静駅"}},
   {"id": "sle_metro_451", "rank": "d", "coords": [42462, 33086], "names": {"ko": "동구청역", "en": "Eastern District Office Station", "ja": "東区役所駅", "lo": "東区庁駅"}},
-  {"id": "sle_metro_452", "rank": "d", "coords": [41864, 32886], "names": {"ko": "중앙로역", "en": "Zoriceso Station", "ja": "中央通り駅", "lo": "中道駅"}},
+  {"id": "sle_metro_452", "rank": "d", "coords": [41864, 32886], "names": {"ko": "중앙로역", "en": "Central Road Station", "ja": "中央通り駅", "lo": "中道駅"}},
   {"id": "sle_metro_453", "rank": "d", "coords": [41227, 32708], "names": {"ko": "츠자고시장역", "en": "Czago Market Station", "ja": "ツザゴ市場駅", "lo": "犯友市駅"}},
   {"id": "sle_metro_454", "rank": "d", "coords": [40693, 31789], "names": {"ko": "뇨걸랴역", "en": "Nyogəlya Station", "ja": "ニョガリャ駅", "lo": "方僚駅"}},
   {"id": "sle_metro_455", "rank": "d", "coords": [39991, 31608], "names": {"ko": "츠자고역", "en": "Czago Station", "ja": "ツザゴ駅", "lo": "犯友駅"}},
@@ -351,5 +351,53 @@
   {"id": "sle_metro_959", "rank": "d", "coords": [34044, 32386], "names": {"ko": "신원지역", "en": "New Circle Station", "ja": "新円地駅", "lo": "新円地駅"}},
   {"id": "sle_metro_960", "rank": "d", "coords": [33338, 33074], "names": {"ko": "토블례 역", "en": "Tobulye Station", "ja": "トブッリェ駅", "lo": "大林駅"}},
   {"id": "sle_metro_961", "rank": "d", "coords": [33322, 33956], "names": {"ko": "연방금융센터역", "en": "Federal Financial Center Station", "ja": "連邦金融センター駅", "lo": "联邦㦮中駅"}},
-  {"id": "sle_metro_963", "rank": "d", "coords": [31750, 34816], "names": {"ko": "초어리공원역", "en": "Coəri Park Station", "ja": "ツォアリ公園駅", "lo": "延南公園駅"}}
+  {"id": "sle_metro_963", "rank": "d", "coords": [31750, 34816], "names": {"ko": "초어리공원역", "en": "Coəri Park Station", "ja": "ツォアリ公園駅", "lo": "延南公園駅"}},
+
+  {"id": "sle_metro_1052", "rank": "d", "coords": [33629, 30436], "names": {"ko": "조루챠역", "en": "Zoruča Station", "ja": "ゾルチャ駅", "lo": "中橋駅"}},
+  {"id": "sle_metro_1055", "rank": "d", "coords": [31787, 31704], "names": {"ko": "흐코게역", "en": "Hkoge Station", "ja": "フコゲ駅", "lo": "褐牽駅"}},
+
+  {"id": "sle_metro_1145", "rank": "d", "coords": [43245, 30650], "names": {"ko": "에마레역", "en": "Emare Station", "ja": "エマレ駅", "lo": "読行駅"}},
+  {"id": "sle_metro_1146", "rank": "d", "coords": [42430, 30588], "names": {"ko": "사가프역", "en": "Sagafu Station", "ja": "サガフ駅", "lo": "战刃駅"}},
+  {"id": "sle_metro_1147", "rank": "d", "coords": [41771, 30487], "names": {"ko": "유헤포역", "en": "Yuhefo Station", "ja": "ユヘフォ駅", "lo": "灰確駅"}},
+  {"id": "sle_metro_1148", "rank": "d", "coords": [41335, 30303], "names": {"ko": "소고역", "en": "Sogo Station", "ja": "ソゴ駅", "lo": "引益駅"}},
+  {"id": "sle_metro_1149", "rank": "d", "coords": [40911, 30359], "names": {"ko": "니졔공원역", "en": "Nije Park Station", "ja": "ニジェ公園駅", "lo": "美琴公園駅"}},
+  {"id": "sle_metro_1152", "rank": "d", "coords": [38993, 30485], "names": {"ko": "마투베역", "en": "Matube Station", "ja": "マトゥベ駅", "lo": "坐金駅"}},
+
+  {"id": "sle_metro_1253", "rank": "d", "coords": [32341, 28090], "names": {"ko": "역사공원역", "en": "Historical Park Station", "ja": "歴史公園駅", "lo": "史公園駅"}},
+  {"id": "sle_metro_1255", "rank": "d", "coords": [31045, 27440], "names": {"ko": "사리터역", "en": "Saritə Station", "ja": "サナベサリタ公園駅", "lo": "長春駅"}},
+  {"id": "sle_metro_1267", "rank": "d", "coords": [20843, 20002], "names": {"ko": "사나베역", "en": "Sanabe Station", "ja": "サナベ駅", "lo": "島買駅"}},
+  {"id": "sle_metro_1268", "rank": "d", "coords": [19067, 21683], "names": {"ko": "레세사역", "en": "Resesa Station", "ja": "レセサ駅", "lo": "役谷駅"}},
+
+  {"id": "sle_metro_jicetu43", "rank": "d", "coords": [46200, 26256], "names": {"ko": "레테로거리역", "en": "Retero Street Station", "ja": "レテロ通り駅", "lo": "街駅"}},
+  {"id": "sle_metro_jicetu44", "rank": "d", "coords": [46238, 26788], "names": {"ko": "다웨츠역", "en": "Daxwec Station", "ja": "ダウェツ駅", "lo": "重手駅"}},
+  {"id": "sle_metro_jicetu45", "rank": "d", "coords": [46182, 27420], "names": {"ko": "동다웨츠역", "en": "East Daxwec Station", "ja": "東ダウェツ駅", "lo": "重手東駅"}},
+  {"id": "sle_metro_jicetu47", "rank": "d", "coords": [45764, 28184], "names": {"ko": "페셰투역", "en": "Pešetu Station", "ja": "ペシェトゥ駅", "lo": "上地駅"}},
+  {"id": "sle_metro_jicetu48", "rank": "d", "coords": [45218, 28382], "names": {"ko": "남다하쳬역", "en": "South Dahače Station", "ja": "南ダハチェ駅", "lo": "赤原南駅"}},
+  {"id": "sle_metro_jicetu49", "rank": "d", "coords": [44796, 28456], "names": {"ko": "지쳬투중앙역", "en": "Central Jičetu Station", "ja": "ジチェトゥ中央駅", "lo": "初地中駅"}},
+  {"id": "sle_metro_jicetu52", "rank": "d", "coords": [43422, 28924], "names": {"ko": "유헤즈역", "en": "Yuhez Station", "ja": "ユヘズ駅", "lo": "駅"}},
+  {"id": "sle_metro_jicetu53", "rank": "d", "coords": [42778, 29206], "names": {"ko": "서사레구역", "en": "West Sareğu Station", "ja": "西サレグ駅", "lo": "長平西駅"}},
+  {"id": "sle_metro_jicetu56", "rank": "d", "coords": [42312, 31032], "names": {"ko": "남부시장역", "en": "South Market Station", "ja": "南部市場駅", "lo": "南市駅"}},
+  {"id": "sle_metro_jicetu57", "rank": "d", "coords": [42224, 31526], "names": {"ko": "프헤예역", "en": "Puheye Station", "ja": "プヘイェ駅", "lo": "合間駅"}},
+  {"id": "sle_metro_jicetu58", "rank": "d", "coords": [42048, 32182], "names": {"ko": "므데사역", "en": "Mudesa Station", "ja": "ムデサ駅", "lo": "木入駅"}},
+  {"id": "sle_metro_jicetu67", "rank": "d", "coords": [38254, 35489], "names": {"ko": "녹대후문역", "en": "Slayih National University Rear Gate Station", "ja": "緑大後門駅", "lo": "緑大後門駅"}},
+
+  {"id": "sle_metro_nije40", "rank": "d", "coords": [46197, 29445], "names": {"ko": "로프디지털단지역", "en": "Rofu Digital Complex Station", "ja": "ロフデジタル団地駅", "lo": "偉風電子域駅"}},
+  {"id": "sle_metro_nije43", "rank": "d", "coords": [45104, 28032], "names": {"ko": "노마신좌역", "en": "Divine Throne of Noma Station", "ja": "遇夢神座駅", "lo": "遇㒱神座駅"}},
+  {"id": "sle_metro_nije47", "rank": "d", "coords": [42866, 27869], "names": {"ko": "시볘카공원역", "en": "Šibyeqa Park Station", "ja": "シビェキャ公園駅", "lo": "流川公園駅"}},
+  {"id": "sle_metro_nije48", "rank": "d", "coords": [42265, 27931], "names": {"ko": "다기너역", "en": "Dağinə Station", "ja": "ダギナ駅", "lo": "刺濃駅"}},
+  {"id": "sle_metro_nije49", "rank": "d", "coords": [41574, 27807], "names": {"ko": "남다기너역", "en": "South Dağinə Station", "ja": "南ダギナ駅", "lo": "刺濃南駅"}},
+  {"id": "sle_metro_nije51", "rank": "d", "coords": [41222, 28982], "names": {"ko": "스라쳬역", "en": "Srače Station", "ja": "スラチェ駅", "lo": "石原駅"}},
+  {"id": "sle_metro_nije54", "rank": "d", "coords": [40836, 31212], "names": {"ko": "파사즈역", "en": "Fasaz Station", "ja": "ファサズ駅", "lo": "受底駅"}},
+
+  {"id": "sle_metro_pesmu43", "rank": "d", "coords": [43001, 24682], "names": {"ko": "레세즈1가역", "en": "Resez 1st Street Station", "ja": "レセズ一丁目駅", "lo": "三日一番街駅"}},
+  {"id": "sle_metro_pesmu45", "rank": "d", "coords": [42807, 25791], "names": {"ko": "레세즈3가역", "en": "Resez 3st Street Station", "ja": "レセズ三丁目駅", "lo": "三日三番街駅"}},
+  {"id": "sle_metro_pesmu47", "rank": "d", "coords": [42385, 26705], "names": {"ko": "서천역", "en": "River West Station", "ja": "西川駅", "lo": "川西駅"}},
+  {"id": "sle_metro_pesmu51", "rank": "d", "coords": [42036, 29401], "names": {"ko": "리지이역", "en": "Rijixi Station", "ja": "リジイ駅", "lo": "旧来駅"}},
+  {"id": "sle_metro_pesmu54", "rank": "d", "coords": [41753, 31161], "names": {"ko": "쥬게요역", "en": "Jugeyo Station", "ja": "ジュゲヨ駅", "lo": "害油駅"}},
+  {"id": "sle_metro_pesmu56", "rank": "d", "coords": [42859, 31654], "names": {"ko": "옐류역", "en": "Yelyu Station", "ja": "イェリュ駅", "lo": "朗权駅"}},
+
+  {"id": "sle_metro_coeri32", "rank": "d", "coords": [39862, 25586], "names": {"ko": "시프샤역", "en": "Šifuša Station", "ja": "シフシャ駅", "lo": "浮箱駅"}},
+  {"id": "sle_metro_coeri35", "rank": "d", "coords": [39494, 27536], "names": {"ko": "시사그역", "en": "Šisag Station", "ja": "シサグ駅", "lo": "神落駅"}},
+
+  {"id": "sle_metro_zsisi52", "rank": "d", "coords": [33923, 33676], "names": {"ko": "보챠역", "en": "Boča Station", "ja": "ボチャ駅", "lo": "色橋駅"}}
 ]
