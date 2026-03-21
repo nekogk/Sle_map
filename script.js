@@ -7,11 +7,11 @@ let locationData = [];
 
 const isMobile = window.innerWidth < 768;
 const zoomThresholds = isMobile ? 
-    {'a': -6, 'b': -4.5, 'c': -3, 'd': -1.5, 'e': 0} : 
-    {'a': -5, 'b': -3.5, 'c': -2, 'd': -0.5, 'e': 1};
+    {'a': -6, 'b': -4.75, 'c': -3.5, 'd': -2.25, 'e': -1} : 
+    {'a': -5, 'b': -3.75, 'c': -2.5, 'd': -1.25, 'e': 0};
 const zoomThresholdsDisappear = isMobile ?
-    {'a': -4, 'b': -2.5, 'c': -1, 'd': 0.5, 'e': 2} :
-    {'a': -3, 'b': -1.5, 'c': 0, 'd': 1.5, 'e': 3};
+    {'a': -3, 'b': -1.75, 'c': -0.5, 'd': 0.75, 'e': 2} :
+    {'a': -2, 'b': -0.75, 'c': 0.5, 'd': 1.75, 'e': 3};
 const fontSizeThresholds = isMobile ?
     {'a': '4vw', 'b': '3.6vw', 'c': '3vw', 'd': '2.4vw', 'e': '2vw'} :
     {'a': '2vw', 'b': '1.8vw', 'c': '1.5vw', 'd': '1.2vw', 'e': '1vw'};
@@ -102,7 +102,7 @@ map.on('mousemove', function(e) {
     coordsDisplay.innerHTML = `${Math.round(e.latlng.lat)}, ${Math.round(e.latlng.lng)}`;
 });
 
-/*
+
 // 좌표 클립보드 복사
 map.on('click', function(e) {
     // 1. 좌표 추출 및 반올림
@@ -121,4 +121,3 @@ map.on('click', function(e) {
         console.error('복사 실패:', err);
     });
 });
-*/
