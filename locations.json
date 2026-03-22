@@ -36,7 +36,7 @@
   {"id": "sle_zori_jicetu04_01_06", "rank": "e", "coords": [44306, 29774], "names": {"ko": "루시조리 종합단지", "en": "Rušizori Complex", "ja": "ルシゾリ総合団地", "lo": "㒱中与舘"}},
   {"id": "sle_zori_jicetu04_01_07", "rank": "e", "coords": [44308, 30078], "names": {"ko": "연방의회", "en": "Federal Capitol", "ja": "連邦議会", "lo": "联邦論堂"}},
 {"id": "sle_zori_yuhez01_05_04", "rank": "e", "coords": [42900, 28130], "names": {"ko": "레미지 종합플라자", "en": "Remiji Plaza", "ja": "レミジ総合プラザ", "lo": "冷日与店"}},
-  {"id": "sle_zori_yuhez03_02_20", "rank": "e", "coords": [43528, 29154], "names": {"ko": "유헤즈 아슬뢰스몰", "en": "Jyhez Aslös Mall", "ja": "ユヘズアスリョスモール", "lo": "店"}},
+  {"id": "sle_zori_yuhez03_02_20", "rank": "e", "coords": [43528, 29154], "names": {"ko": "유헤즈 아슬뢰스몰", "en": "Yuhez Aslös Mall", "ja": "ユヘズアスリョスモール", "lo": "店"}},
   {"id": "sle_zori_yuhez03_03_04", "rank": "e", "coords": [43594, 29398], "names": {"ko": "시립도서관", "en": "Municipal Library", "ja": "市立図書館", "lo": "京立巻舘"}},
   {"id": "sle_zori_yuhez03_03_08", "rank": "e", "coords": [43292, 29338], "names": {"ko": "중앙은행", "en": "Central Bank", "ja": "中央銀行", "lo": "中艮行"}},
   {"id": "sle_zori_yuhez03_04_01", "rank": "e", "coords": [43632, 29988], "names": {"ko": "중구청", "en": "Central District Office", "ja": "中区役所", "lo": "中区庁"}},
