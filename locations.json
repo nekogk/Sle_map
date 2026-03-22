@@ -59,7 +59,20 @@
   {"id": "sle_zori_rijixi_03_07", "rank": "e", "coords": [41481, 29670], "names": {"ko": "스라쳬도서관", "en": "Srače Library", "ja": "スラチェ図書館", "lo": "石原巻舘"}},
 
   {"id": "sle_igosa", "rank": "b", "coords": [43000, 31500], "names": {"ko": "동구", "en": "Eastern District", "ja": "東区", "lo": "東区"}},
+  
   {"id": "sle_creri", "rank": "b", "coords": [40000, 28500], "names": {"ko": "남구", "en": "Southern District", "ja": "南区", "lo": "南区"}},
+  {"id": "sle_creri_nije01", "rank": "c", "coords": [40910, 27373], "names": {"ko": "니졔1가", "en": "Nije 1st Street", "ja": "ニジェ一丁目", "lo": "美琴一番街"}},
+  {"id": "sle_creri_nije02", "rank": "c", "coords": [40755, 28025], "names": {"ko": "니졔2가", "en": "Nije 2nd Street", "ja": "ニジェ二丁目", "lo": "美琴二番街"}},
+  {"id": "sle_creri_nije03", "rank": "c", "coords": [40620, 28671], "names": {"ko": "니졔3가", "en": "Nije 3rd Street", "ja": "ニジェ三丁目", "lo": "美琴三番街"}},
+  {"id": "sle_creri_nije04", "rank": "c", "coords": [40526, 29297], "names": {"ko": "니졔4가", "en": "Nije 4th Street", "ja": "ニジェ四丁目", "lo": "美琴四番街"}},
+  {"id": "sle_creri_nije05", "rank": "c", "coords": [40432, 30037], "names": {"ko": "니졔5가", "en": "Nije 5th Street", "ja": "ニジェ五丁目", "lo": "美琴五番街"}},
+  {"id": "sle_creri_sisag", "rank": "c", "coords": [39568, 27072], "names": {"ko": "시사그가", "en": "Šisag Street", "ja": "シサグ町", "lo": "神落街"}},
+  {"id": "sle_creri_sages01", "rank": "c", "coords": [39392, 27792], "names": {"ko": "사거스1가", "en": "Sagəs 1st Street", "ja": "サガス一丁目", "lo": "影似一番街"}},
+  {"id": "sle_creri_sages02", "rank": "c", "coords": [39256, 28464], "names": {"ko": "사거스2가", "en": "Sagəs 2nd Street", "ja": "サガス二丁目", "lo": "影似二番街"}},
+  {"id": "sle_creri_sages03", "rank": "c", "coords": [39096, 29000], "names": {"ko": "사거스3가", "en": "Sagəs 3rd Street", "ja": "サガス三丁目", "lo": "影似三番街"}},
+  {"id": "sle_creri_miyagun", "rank": "c", "coords": [39368, 29888], "names": {"ko": "북미야구가", "en": "North Mixyağu Street", "ja": "北ミヤギュ町", "lo": "来黒北街"}},
+  {"id": "sle_creri_miyagus", "rank": "c", "coords": [38576, 29936], "names": {"ko": "남미야구가", "en": "South Mixyağu Street", "ja": "南ミヤギュ町", "lo": "来黒南街"}},
+
   {"id": "sle_rige", "rank": "b", "coords": [37000, 28000], "names": {"ko": "리게구", "en": "Riğe District", "ja": "リギェ区", "lo": "旧津区"}},
   {"id": "sle_jiseso", "rank": "b", "coords": [35500, 32500], "names": {"ko": "지세소구", "en": "Jiseso District", "ja": "ジセソ区", "lo": "雨道区"}},
   {"id": "sle_coeri", "rank": "b", "coords": [33500, 35500], "names": {"ko": "초어리구", "en": "Coəri District", "ja": "ツォアリ区", "lo": "延南区"}},
@@ -321,7 +334,7 @@
   {"id": "sle_metro_642", "rank": "d", "coords": [41070, 29684], "names": {"ko": "동스라쳬역", "en": "East Srače Station", "ja": "東スラチェ駅", "lo": "石原東駅"}},
   {"id": "sle_metro_643", "rank": "d", "coords": [40465, 29594], "names": {"ko": "니졔역", "en": "Nije Station", "ja": "ニジェ駅", "lo": "美琴駅"}},
   {"id": "sle_metro_644", "rank": "d", "coords": [39845, 29452], "names": {"ko": "므와고역", "en": "Muxwago Station", "ja": "ムワゴ駅", "lo": "未友駅"}},
-  {"id": "sle_metro_645", "rank": "d", "coords": [39032, 29269], "names": {"ko": "미야구역", "en": "Mixyağu Station", "ja": "ミヤグ駅", "lo": "来黒駅"}},
+  {"id": "sle_metro_645", "rank": "d", "coords": [39032, 29269], "names": {"ko": "미야구역", "en": "Mixyağu Station", "ja": "ミヤギュ駅", "lo": "来黒駅"}},
   {"id": "sle_metro_646", "rank": "d", "coords": [38290, 29134], "names": {"ko": "카레사역", "en": "Karesa Station", "ja": "カレサ駅", "lo": "甘末駅"}},
   {"id": "sle_metro_647", "rank": "d", "coords": [37453, 28958], "names": {"ko": "동제즈역", "en": "East Zez Station", "ja": "東ゼズ駅", "lo": "津房東駅"}},
   {"id": "sle_metro_649", "rank": "d", "coords": [37289, 27009], "names": {"ko": "제즈역", "en": "Zez Station", "ja": "ゼズ駅", "lo": "津房駅"}},
@@ -455,6 +468,7 @@
 
   {"id": "sle_metro_coeri32", "rank": "d", "coords": [39862, 25586], "names": {"ko": "시프샤역", "en": "Šifuša Station", "ja": "シフシャ駅", "lo": "浮箱駅"}},
   {"id": "sle_metro_coeri35", "rank": "d", "coords": [39494, 27536], "names": {"ko": "시사그역", "en": "Šisag Station", "ja": "シサグ駅", "lo": "神落駅"}},
+  {"id": "sle_metro_coeri39", "rank": "d", "coords": [39001, 29929], "names": {"ko": "동미야구역", "en": "East Mixyağu Station", "ja": "東ミヤグ駅", "lo": "来黒東駅"}},
 
   {"id": "sle_metro_zsisi52", "rank": "d", "coords": [33923, 33676], "names": {"ko": "보챠역", "en": "Boča Station", "ja": "ボチャ駅", "lo": "色橋駅"}}
 ]
