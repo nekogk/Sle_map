@@ -207,9 +207,9 @@
   {"id": "sle_asni_ecefa01", "rank": "c", "coords": [43727, 24352], "names": {"ko": "에체파1가", "en": "Ecafa 1st Street", "ja": "エツェファ一丁目", "lo": "一番街"}},
   {"id": "sle_asni_resez01", "rank": "c", "coords": [42326, 24593], "names": {"ko": "레세즈1가", "en": "Resez 1st Street", "ja": "レセズ一丁目", "lo": "三日一番街"}},
   {"id": "sle_asni_mixi_07", "rank": "d", "coords": [43451, 23688], "names": {"ko": "토바초대학교", "en": "Ectenia University", "ja": "大延大学", "lo": "大延大斈"}},
-  {"id": "sle_asni_mixi_06_01", "rank": "e", "coords": [43951, 23815], "names": {"ko": "토바초대학교 라호병원", "en": "Ectenia Raho Hospital", "ja": "大延大学ラホ病院", "lo": "大延大斈延口病院"}},
-  {"id": "sle_asni_mixi_07_09", "rank": "e", "coords": [43810, 23670], "names": {"ko": "토바초대학교 운동장", "en": "Ectenia University Playground", "ja": "大延大学運動場", "lo": "大延大斈运動場"}},
-  {"id": "sle_asni_mixi_07_20", "rank": "e", "coords": [43578, 23682], "names": {"ko": "토바초대학교 본관", "en": "Ectenia University Main Building", "ja": "大延大学本館", "lo": "大延大斈本舘"}},
+  {"id": "sle_asni_mixi_06_01", "rank": "e", "coords": [43951, 23815], "names": {"ko": "라호병원", "en": "Raho Hospital", "ja": "ラホ病院", "lo": "延口病院"}},
+  {"id": "sle_asni_mixi_07_09", "rank": "e", "coords": [43810, 23670], "names": {"ko": "운동장", "en": "Playground", "ja": "運動場", "lo": "运動場"}},
+  {"id": "sle_asni_mixi_07_20", "rank": "e", "coords": [43578, 23682], "names": {"ko": "본관", "en": "Main Building", "ja": "本館", "lo": "本舘"}},
   {"id": "sle_asni_ecefa01_08_01", "rank": "e", "coords": [43547, 24422], "names": {"ko": "토바초고등학교", "en": "Tobaco High School", "ja": "大延高校", "lo": "大延中斈"}},
   {"id": "sle_asni_ecefa01_08_02", "rank": "e", "coords": [43546, 24553], "names": {"ko": "토바초초등학교", "en": "Tobaco Elementary School", "ja": "大延小学校", "lo": "大延小斈"}},
 
