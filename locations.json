@@ -81,13 +81,15 @@
   {"id": "sle_igosa_fasaz", "rank": "c", "coords": [41461, 31490], "names": {"ko": "파사즈가", "en": "Fasaz Street", "ja": "ファサズ町", "lo": "受底街"}},
   {"id": "sle_igosa_czago01", "rank": "c", "coords": [41300, 32352], "names": {"ko": "츠자고1가", "en": "Czago 1st Street", "ja": "ツザゴ一丁目", "lo": "犯友一番街"}},
   {"id": "sle_igosa_jicetu06_01", "rank": "d", "coords": [44531, 31167], "names": {"ko": "자유공원", "en": "Park of Freedom", "ja": "自由公園", "lo": "自由公園"}},
+  {"id": "sle_igosa_czago01_04", "rank": "d", "coords": [41444, 32597], "names": {"ko": "츠자고시장", "en": "Czago Market", "ja": "ツザゴ市場", "lo": "犯友市"}},
   {"id": "sle_igosa_jicetu05_04_01", "rank": "e", "coords": [44655, 30171], "names": {"ko": "케챠니 소유몰", "en": "Kečani Soyu Mall", "ja": "ケチャニソユモール", "lo": "尺幸与店"}},
   {"id": "sle_igosa_jicetu06_01_07", "rank": "e", "coords": [44299, 31045], "names": {"ko": "자유광장", "en": "Square of Freedom", "ja": "自由広場", "lo": "自由広場"}},
   {"id": "sle_igosa_jicetu06_02_01", "rank": "e", "coords": [43994, 30811], "names": {"ko": "중앙법원", "en": "Central Court", "ja": "中央裁判所", "lo": "中法院"}},
   {"id": "sle_igosa_jicetu06_04_01", "rank": "e", "coords": [43954, 31044], "names": {"ko": "토브스 주법원", "en": "Tobus State Court", "ja": "トブス州裁判所", "lo": "大西州法院"}},
   {"id": "sle_igosa_emare_02_02", "rank": "e", "coords": [43310, 30926], "names": {"ko": "중앙병원", "en": "Central Hospital", "ja": "中央病院", "lo": "中病院"}},
   {"id": "sle_igosa_emare_03_02", "rank": "e", "coords": [43251, 31500], "names": {"ko": "육방원역", "en": "Sixfold Court Station", "ja": "六方院駅", "lo": "六方院駅"}},
-  
+  {"id": "sle_igosa_iles_05_05", "rank": "e", "coords": [42730, 33049], "names": {"ko": "동구청", "en": "Eastern District Office", "ja": "東区役所", "lo": "東区庁"}},
+
   {"id": "sle_creri", "rank": "b", "coords": [39906, 28668], "names": {"ko": "남구", "en": "Southern District", "ja": "南区", "lo": "南区"}},
   {"id": "sle_creri_nije01", "rank": "c", "coords": [40910, 27373], "names": {"ko": "니졔1가", "en": "Nije 1st Street", "ja": "ニジェ一丁目", "lo": "美琴一番街"}},
   {"id": "sle_creri_nije02", "rank": "c", "coords": [40755, 28025], "names": {"ko": "니졔2가", "en": "Nije 2nd Street", "ja": "ニジェ二丁目", "lo": "美琴二番街"}},
