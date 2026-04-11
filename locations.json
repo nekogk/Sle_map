@@ -699,6 +699,8 @@
   {"id": "sle_metro_960", "rank": "d", "coords": [33338, 33074], "names": {"ko": "토블례 역", "en": "Tobulye Station", "ja": "トブッリェ駅", "lo": "大林駅"}},
   {"id": "sle_metro_961", "rank": "d", "coords": [33322, 33956], "names": {"ko": "연방금융센터역", "en": "Federal Financial Center Station", "ja": "連邦金融センター駅", "lo": "联邦㦮中駅"}},
   {"id": "sle_metro_963", "rank": "d", "coords": [31750, 34816], "names": {"ko": "초어리공원역", "en": "Coəri Park Station", "ja": "ツォアリ公園駅", "lo": "延南公園駅"}},
+  {"id": "sle_metro_968", "rank": "d", "coords": [28912, 37919], "names": {"ko": "시살레역", "en": "Šisale Station", "ja": "シサレ駅", "lo": "沙花駅"}},
+  {"id": "sle_metro_969", "rank": "d", "coords": [28954, 38775], "names": {"ko": "리릴라역", "en": "Ririla Station", "ja": "リリラ駅", "lo": "音瀬駅"}},
 
   {"id": "sle_metro_1052", "rank": "d", "coords": [33629, 30436], "names": {"ko": "조루챠역", "en": "Zoruča Station", "ja": "ゾルチャ駅", "lo": "中橋駅"}},
   {"id": "sle_metro_1055", "rank": "d", "coords": [31787, 31704], "names": {"ko": "흐코게역", "en": "Hkoge Station", "ja": "フコゲ駅", "lo": "褐牽駅"}},
