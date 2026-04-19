@@ -209,7 +209,7 @@
   {"id": "sle_mime_daxwec_04_30", "rank": "e", "coords": [46453, 27234], "names": {"ko": "다웨츠초등학교", "en": "Daxwec Elementary School", "ja": "ダウェツ小学校", "lo": "重手小斈"}},
   {"id": "sle_mime_resis_04_01", "rank": "e", "coords": [46545, 27895], "names": {"ko": "중전원", "en": "House of Cooper", "ja": "重銭院", "lo": "重㦮院"}},
   {"id": "sle_mime_resis_05_01", "rank": "e", "coords": [46471, 28413], "names": {"ko": "유아학원", "en": "Rešis Preschool", "ja": "幼児学院", "lo": "幼児斈院"}},
-  {"id": "sle_mime_jicetu01_04_04", "rank": "e", "coords": [44857, 27394], "names": {"ko": "내민청", "en": "Rima Executive", "ja": "来民庁", "lo": "来民庁"}},
+  {"id": "sle_mime_jicetu01_04_04", "rank": "e", "coords": [44857, 27394], "names": {"ko": "내민청", "en": "Rimin Executive", "ja": "来民庁", "lo": "来民庁"}},
   {"id": "sle_mime_jicetu01_05_01", "rank": "e", "coords": [44914, 27796], "names": {"ko": "노마신좌", "en": "Divine Throne of Noma", "ja": "遇夢神座", "lo": "遇㒱神座"}},
 
   {"id": "sle_asni", "rank": "b", "coords": [42500, 23500], "names": {"ko": "아스니구", "en": "Asni District", "ja": "アスニ区", "lo": "広女区"}},
