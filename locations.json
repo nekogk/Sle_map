@@ -257,7 +257,7 @@
   {"id": "sle_sasri", "rank": "b", "coords": [39000, 32000], "names": {"ko": "사스리구", "en": "Sasri District", "ja": "サスリ区", "lo": "司㦮区"}},
   
   {"id": "sle_recae", "rank": "b", "coords": [38112, 36539], "names": {"ko": "레차에구", "en": "Recae District", "ja": "レツァエ区", "lo": "竜岩区"}},
-  {"id": "sle_recae_nyesutu", "rank": "c", "coords": [38432, 36010], "names": {"ko": "녜수투가", "en": "Nyesutu Street", "ja": "ニェストゥ町", "lo": "束茶街"}},
+  {"id": "sle_recae_nyesutu", "rank": "c", "coords": [38432, 36010], "names": {"ko": "녜수투가", "en": "Nyesutu Street", "ja": "ニェストゥ町", "lo": "束院街"}},
   {"id": "sle_recae_nyesutu_03", "rank": "d", "coords": [38604, 36082], "names": {"ko": "의대공원", "en": "Medical Park", "ja": "医大公園", "lo": "医大公園"}},
   {"id": "sle_recae_nyesutu_07", "rank": "d", "coords": [38157, 35869], "names": {"ko": "녹대공원", "en": "University Park", "ja": "緑大公園", "lo": "緑大公園"}},
   {"id": "sle_recae_nyesutu_08", "rank": "d", "coords": [38193, 36238], "names": {"ko": "슬레대학교", "en": "Slayih National University", "ja": "緑山大学", "lo": "緑山大斈"}},
@@ -476,7 +476,7 @@
   {"id": "sle_metro_306", "rank": "d", "coords": [42178, 36011], "names": {"ko": "동천역", "en": "River East Station", "ja": "東川駅", "lo": "川東駅"}},
   {"id": "sle_metro_307", "rank": "d", "coords": [40931, 35759], "names": {"ko": "서하로메구청역", "en": "West Harome District Office Station", "ja": "西ハロメ区役所駅", "lo": "行逸西区庁駅"}},
   {"id": "sle_metro_308", "rank": "d", "coords": [39838, 35552], "names": {"ko": "지조역", "en": "Jizo Station", "ja": "ジゾ駅", "lo": "难感駅"}},
-  {"id": "sle_metro_309", "rank": "d", "coords": [39025, 36080], "names": {"ko": "녜수투역", "en": "Nyesutu Station", "ja": "ニェストゥ駅", "lo": "束茶駅"}},
+  {"id": "sle_metro_309", "rank": "d", "coords": [39025, 36080], "names": {"ko": "녜수투역", "en": "Nyesutu Station", "ja": "ニェストゥ駅", "lo": "束院駅"}},
   {"id": "sle_metro_310", "rank": "d", "coords": [38159, 36670], "names": {"ko": "슬레대학교역", "en": "Slayih National University Station", "ja": "緑山大学駅", "lo": "緑山大斈駅"}},
   {"id": "sle_metro_311", "rank": "d", "coords": [37048, 36649], "names": {"ko": "레차에구청역", "en": "Recae District Office Station", "ja": "レツァエ区役所駅", "lo": "竜岩区庁駅"}},
   {"id": "sle_metro_312", "rank": "d", "coords": [36259, 36486], "names": {"ko": "레차에역", "en": "Recae Station", "ja": "レツァエ駅", "lo": "竜岩駅"}},
