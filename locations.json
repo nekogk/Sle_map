@@ -597,7 +597,7 @@
   {"id": "sle_metro_568", "rank": "d", "coords": [36633, 40839], "names": {"ko": "동슬레공원역", "en": "East Sle Park Station", "ja": "東緑山公園駅", "lo": "緑山東公園駅"}},
   {"id": "sle_metro_569", "rank": "d", "coords": [36984, 41897], "names": {"ko": "다보샤역", "en": "Daboša Station", "ja": "ダボシャ駅", "lo": "分東駅"}},
   {"id": "sle_metro_570", "rank": "d", "coords": [37312, 42702], "names": {"ko": "웨바이역", "en": "Webaxi Station", "ja": "ウェバイ駅", "lo": "邑載駅"}},
-  {"id": "sle_metro_571", "rank": "d", "coords": [37559, 43748], "names": {"ko": "웨바이오거리역", "en": "Webaxi Intersection Station", "ja": "ウェバイ五差路駅", "lo": "邑載五遇道駅"}},
+  {"id": "sle_metro_571", "rank": "d", "coords": [37559, 43748], "names": {"ko": "웨바이오거리역", "en": "Webaxi Intersection Station", "ja": "ウェバイ五差路駅", "lo": "邑載大字路駅"}},
 
   {"id": "sle_metro_629", "rank": "d", "coords": [45875, 35413], "names": {"ko": "포하쳬구청역", "en": "Fohače District Office Station", "ja": "フォハチェ区役所駅", "lo": "秋疑区庁駅"}},
   {"id": "sle_metro_630", "rank": "d", "coords": [45468, 34705], "names": {"ko": "포하쳬역", "en": "Fohače Station", "ja": "フォハチェ駅", "lo": "秋疑駅"}},
